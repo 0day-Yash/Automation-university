@@ -10,8 +10,8 @@ if "Sent_Status" not in df.columns:
     df["Sent_Status"] = ""  # Initialize empty column if missing
 
 # Email account details
-your_email = "Yashkulkarni20008@gmail.com"
-your_password = "ttmd jkhe skog mtax"
+your_email = "jfasdosiohsdj@gmail.com"
+your_password = "xxxx xxxx xxxx xxxx"
 
 # Set up SMTP server connection
 server = smtplib.SMTP("smtp.gmail.com", 587)
@@ -22,50 +22,11 @@ server.login(your_email, your_password)
 bcc_emails = ["yashk.pvt@gmail.com"]
 
 # Subject for the email
-subject = "Inquiry About B.Tech Admissions and Opportunities"
+subject = "Inquiry about...?"
 
 # HTML Email Template
 message_template = """
 <html>
-<body>
-<p>Dear Admissions Team,</p>
-
-<p>I hope this email finds you well. My name is <b>Yash Amol Kulkarni</b>, and I am currently pursuing my 12th-grade education, with core subjects in <b>Physics, Chemistry, Mathematics, and Computer Science</b>. I am reaching out to explore admission opportunities for your esteemed <b>B.Tech program</b>, particularly in fields related to <b>cybersecurity, web development, and technological innovation</b>.</p>
-
-<p>Over the past few years, I’ve been fortunate to contribute meaningfully to the tech community while developing my skills in <b>cybersecurity</b>, <b>ethical hacking</b>, and <b>leadership</b>. Below are some key milestones from my journey:</p>
-
-<ul>
-    <li><b>Founder & CEO of PurpleRain TechSafe:</b> I lead a cybersecurity firm focused on delivering real-time threat alerts, network security reports, and digital safety solutions to small businesses and enterprises.</li>
-    <li><b>Co-Founder of CodeQuestt Hackathon:</b> I co-organized CodeQuestt, a dynamic hackathon that generated over <b>₹4 lakh (over 4000USD) in revenue and sponsorships</b> in just two months, attracting creative minds from across the country.</li>
-    <li><b>Ethical Hacker and OSINT Specialist:</b> I lead a cybersecurity team called <b>CypherSec</b>, and I actively collaborate with <b>Trace Labs</b> to locate missing persons through <b>OSINT (Open-Source Intelligence)</b> investigations.</li>
-    <li><b>National Robotics Achievements:</b> Representing Punjab, I secured <b>4th place at the ATL All-India Robotics Championship</b> with a score of <b>93.75/100</b>.</li>
-</ul>
-
-<p>In addition to my extracurricular pursuits, I have maintained a strong academic foundation, ranking consistently at the top of my class. My <b>11th-grade scores</b> are as follows:</p>
-
-<ul>
-    <li><b>Physics:</b> 86/100</li>
-    <li><b>Chemistry:</b> 87/100</li>
-    <li><b>Mathematics:</b> 84/100</li>
-    <li><b>Computer Science:</b> 93/100</li>
-    <li><b>English:</b> 90/100</li>
-</ul>
-
-<p>I would also appreciate any guidance regarding:</p>
-
-<ol>
-    <li><b>Scholarship opportunities,</b> especially those offering full or partial tuition waivers for students with achievements in entrepreneurship, technology, or leadership.</li>
-    <li><b>Application strategies</b> that could enhance my chances of standing out, particularly with my background in cybersecurity, ethical hacking, and innovation.</li>
-</ol>
-
-<p>Thank you for taking the time to review my email. I look forward to learning more about the opportunities your institution offers and how I can be part of your vibrant academic and extracurricular community.</p>
-
-<p>Warm regards,<br>
-<b>Yash Amol Kulkarni</b><br>
-Founder & CEO, PurpleRain TechSafe<br>
-📞 +91 9915181929 | 🌐 <a href="https://yashk.app">yashk.app</a><br>
-<a href="https://www.linkedin.com/in/yashkulkarni08/">LinkedIn Profile</a></p>
-</body>
 </html>
 """
 
